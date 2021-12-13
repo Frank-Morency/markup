@@ -25,7 +25,7 @@ int	main(void)
 		base = num / 0.5;
 		dix = (base / 100) * 90;
 		quinze = (base / 100) * 85;
-		printf("achat: %.2f\tbase: %.2f\t10%%: %.2f\t15%%: %.2f\n", num, base, dix, quinze);
+		printf("base: %.2f\t10%%: %.2f\t15%%: %.2f\n", base, dix, quinze);
 	}
 	return (0);
 }
